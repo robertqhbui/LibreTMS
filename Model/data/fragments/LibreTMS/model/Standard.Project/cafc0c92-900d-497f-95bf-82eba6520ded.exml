@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LibreTMS" version="4">
+  <OBJECT>
+    <ID name="LibreTMS" mc="Standard.Project" uid="cafc0c92-900d-497f-95bf-82eba6520ded"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[LibreTMS]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="libretms" mc="Standard.Package" uid="e9ed3b3e-4bc3-47bd-839b-ddfe9c264fd1"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="LibreTMS" mc="Infrastructure.DiagramSet" uid="fdcf9edb-4249-42ab-b362-f5c0b3146ebc"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

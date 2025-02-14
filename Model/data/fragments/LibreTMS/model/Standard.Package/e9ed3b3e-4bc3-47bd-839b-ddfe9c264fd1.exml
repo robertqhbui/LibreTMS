@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="libretms" version="4">
+  <OBJECT>
+    <ID name="libretms" mc="Standard.Package" uid="e9ed3b3e-4bc3-47bd-839b-ddfe9c264fd1"/>
+    <PID name="LibreTMS" mc="Standard.Project" uid="cafc0c92-900d-497f-95bf-82eba6520ded"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[libretms]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Shipment" mc="Standard.Package" uid="75c98ddb-580c-427c-87b1-4f9d9fd9b23f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

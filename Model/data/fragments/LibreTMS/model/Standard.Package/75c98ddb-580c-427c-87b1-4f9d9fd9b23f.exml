@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Shipment" version="4">
+  <OBJECT>
+    <ID name="Shipment" mc="Standard.Package" uid="75c98ddb-580c-427c-87b1-4f9d9fd9b23f"/>
+    <PID name="libretms" mc="Standard.Package" uid="e9ed3b3e-4bc3-47bd-839b-ddfe9c264fd1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Shipment]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Shipment" mc="Standard.Class" uid="f3880fdc-27b7-4af1-9108-a0d555d43be2"/>
+        <COMPID name="ShipmentItem" mc="Standard.Class" uid="d0c77f74-5a79-4f5d-bd94-ca6daecda887"/>
+        <COMPID name="ShipmentLeg" mc="Standard.Class" uid="5e072973-56e0-4b3b-94a0-837b8c589da2"/>
+        <COMPID name="Location" mc="Standard.Class" uid="f76ab24f-8072-4263-90dd-05d00307ea91"/>
+        <COMPID name="ShipmentService" mc="Standard.Class" uid="639b36fa-1447-413c-bd98-2dc1e7cf4dfa"/>
+        <COMPID name="PriceItem" mc="Standard.Class" uid="fa213c6b-ca6f-4d2f-a0b6-816b7cc2513b"/>
+        <COMPID name="Customer" mc="Standard.Class" uid="10766ded-e62d-4697-b582-e4233b90662d"/>
+        <COMPID name="Article" mc="Standard.Class" uid="33534bec-7d02-4f0f-8a6f-d99623b486b2"/>
+        <COMPID name="ShipmentStatus" mc="Standard.Class" uid="d1b9fb87-e2f6-4d5a-9fe0-40c7068a24aa"/>
+        <COMPID name="Carrier" mc="Standard.Class" uid="5d31a769-fbd6-45a6-829e-1e0167c08810"/>
+        <COMPID name="CompanyVechicle" mc="Standard.Class" uid="5812c226-10c6-45a3-ad31-a2e7d645bd54"/>
+        <COMPID name="Agent" mc="Standard.Class" uid="1e9e2692-f3d5-41ac-8dcc-1b1f3c2ece2b"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Shipment Class diagram" mc="Standard.ClassDiagram" uid="d7fdd69c-2a88-48f0-8512-537ff2a90967"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
